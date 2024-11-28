@@ -1,0 +1,101 @@
+{
+    "Common": {
+        "or": "Ou",
+        "cancel": "Cancelar",
+        "continue": "Continuar",
+        "save": "Salvar",
+        "owner": "Proprietário",
+        "admin": "Administrador",
+        "author": "Autor",
+        "editor": "Editor",
+        "actions": "Ações"
+    },
+    "Menu": {
+        "home": "Início",
+        "clients": "Clientes",
+        "apartaments": "Apartamentos",
+        "finance": "Financeiro"
+    },
+    "HomePage": {
+        "title": "👋 Olá, {name}!",
+        "description": "Selecione um blog para começar a gerenciar ou crie um novo.",
+        "btn_label": "Criar blog",
+        "tooltip_title": "Clique para selecionar"
+    },
+    "ClientList": {
+        "title": "Clientes",
+        "description": "Listagem de Clientes",
+        "btn_label": "Novo Cliente",
+        "tooltip_title": "Clique para selecionar"
+    },
+    "tableClients": {
+        "name": "Nome",
+        "email": "Email",
+        "actions": "Excluir"
+    },
+    "ClientEdit": {
+        "title": "Clientes",
+        "description": "Edição de Cliente",
+        "description2": "Adição de Cliente",
+        "btn_save": "Salvar",
+        "btn_cancel": "Cancelar",
+        "cName": "Nome Completo",
+        "cEmail": "Email",
+        "cPhone": "Celular",
+        "cCpf": "CPF",
+        "cRg": "RG",
+        "cBirth": "Data de Nascimento",
+        "cAddress": "Endereço",
+        "cNumber": "Número",
+        "cComplement": "Complemento",
+        "cDistrict": "Bairro",
+        "cCity": "Cidade",
+        "cState": "Estado",
+        "cZip": "CEP",
+        "cCountry": "País",
+        "cObs": "Observações",
+        "cPhoneContact": "Tel. de Contato",
+        "cCivilStatus": "Estado Civil",
+        "cProfession": "Ocupação",
+        "cSmokey": "Fumante",
+        "cCar": "Possui veículo",
+        "cCarModel": "Placa do veículo"
+    },
+    "NotFoundPage": {
+        "title": "Página não encontrada",
+        "subtitle": "A página que você está procurando não existe.",
+        "btn_label": "Voltar à página inicial"
+    },
+    "SignInPage": {
+        "btn_label": "Entre com seu {provider}",
+        "text_simple": "Entrar",
+        "no_account": "Ainda não possui uma conta?",
+        "btn_no_account_label": "Registrar-se",
+        "error_no_account": "Conta não encontrada"
+    },
+    "SignUpPage": {
+        "btn_label": "Criar conta com {provider}",
+        "text_simple": "Crie sua conta",
+        "already_have_account": "Ja possui uma conta?",
+        "btn_have_account_label": "Fazer login"
+    },
+    "VerifyEmailPage": {
+        "title": "Verifique seu e-mail",
+        "subtitle": "Você receberá um e-mail com um link mágico ✨; clique nele para acessar sua conta rapidamente! (Se não encontrar, verifique sua pasta de spam.)",
+        "btn_label": "Voltar à página de login"
+    },
+    "AuthErrorPage": {
+        "title": "Erro de autenticação",
+        "subtitle": "Não foi possível autenticar sua conta. Por favor, tente novamente mais tarde.",
+        "btn_label": "Voltar à página de login"
+    }, 
+    "Errors": {
+        "auth/ACCOUNT_NOT_FOUND": "Conta não encontrada",
+        "auth/ACCOUNT_ALREADY_EXISTS": "Email já associado a uma conta",
+        "auth/MAX_ACCOUNT_LIMIT_REACHED": "Limite máximo de contas atingido",
+        "blog/SLUG_ALREADY_EXISTS": "Slug já em uso por outro blog",
+        "blog/USER_EMAIL_NOT_FOUND": "Email do usuário não encontrado",
+        "blog/USER_ALREADY_IN_BLOG": "Email do usuário já associado a um blog",
+        "post/SLUG_ALREADY_EXISTS": "Slug já em uso por outra publicação"
+    }
+}

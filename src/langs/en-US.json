@@ -1,0 +1,100 @@
+{
+    "Common": {
+        "or": "Or",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "save": "Save",
+        "owner": "Owner",
+        "admin": "Admin",
+        "author": "Author",
+        "editor": "Editor",
+        "actions": "Actions"
+    },
+    "Menu": {
+        "home": "Home",
+        "clients": "Customers",
+        "apartaments": "Apartments",
+        "finance": "Finance"
+    },
+    "HomePage": {
+        "title": "👋 Hello, {name}!",
+        "description": "Select a blog to start managing or create a new one.",
+        "btn_label": "Create blog",
+        "tooltip_title": "Click to select"
+    },
+    "ClientList": {
+        "title": "Clients",
+        "description": "Clients List",
+        "btn_label": "New Clients",
+        "tooltip_title": "Clique para selecionar"
+    },
+    "tableClients": {
+        "name": "Name",
+        "email": "Email",
+        "actions": "Delete"
+    },
+    "ClientEdit": {
+        "title": "Clients",
+        "description": "Client Edition",
+        "description2": "Adding Client",
+        "btn_save": "Save",
+        "btn_cancel": "Cancel",
+        "cName": "Full Name",
+        "cEmail": "Email",
+        "cPhone": "Phone",
+        "cCpf": "CPF",
+        "cRg": "RG",
+        "cBirth": "Date of Birth",
+        "cAddress": "Address",
+        "cNumber": "Number",
+        "cComplement": "Complement",
+        "cDistrict": "District",
+        "cCity": "City",
+        "cState": "State",
+        "cZip": "ZIP Code",
+        "cCountry": "Country",
+        "cObs": "Observations",
+        "cPhoneContact": "Contact Phone",
+        "cCivilStatus": "Marital Status",
+        "cProfession": "Profession",
+        "cSmokey": "Smoker",
+        "cCar": "Has Vehicle",
+        "cCarModel": "Vehicle Plate"
+    },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "subtitle": "The page you are looking for does not exist.",
+        "btn_label": "Back to home page"
+    },
+    "SignInPage": {
+        "btn_label": "Sign in with {provider}",
+        "text_simple": "Login",
+        "no_account": "Don't have an account?",
+        "btn_no_account_label": "Register"
+    },
+    "SignUpPage": {
+        "btn_label": "Register with {provider}",
+        "already_have_account": "Already have an account?",
+        "btn_have_account_label": "Sign in",
+        "text_simple": "Create your account"
+    },
+    "VerifyEmailPage": {
+        "title": "Verify your email",
+        "subtitle": "An email with a magic link has been sent to your inbox. Click the link to access your account quickly! (If you don't find it, check your spam.)",
+        "btn_label": "Back to signin page"
+    },
+    "AuthErrorPage": {
+        "title": "Authentication error",
+        "subtitle": "We were unable to authenticate your account. Please try again later.",
+        "btn_label": "Back to signin page"
+    },
+    "Errors": {
+        "auth/ACCOUNT_NOT_FOUND": "Account not found",
+        "auth/ACCOUNT_ALREADY_EXISTS": "Email already associated with an account",
+        "auth/MAX_ACCOUNT_LIMIT_REACHED": "Maximum account limit reached",
+        "blog/SLUG_ALREADY_EXISTS": "Slug already in use by another blog",
+        "blog/USER_EMAIL_NOT_FOUND": "Email of user not found",
+        "blog/USER_ALREADY_IN_BLOG": "Email of user already associated with a blog",
+        "post/SLUG_ALREADY_EXISTS": "Slug already in use by another post"
+    }
+}

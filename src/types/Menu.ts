@@ -1,0 +1,1 @@
+export type MenuAside = "open" | "close";
